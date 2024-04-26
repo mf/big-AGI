@@ -35,7 +35,7 @@ export const newsRoadmapCallout =
         <Grid xs={12} sm={7}>
           <Button
             fullWidth variant='soft' color='primary' endDecorator={<LaunchIcon />}
-            component={Link} href={Brand.URIs.OpenProject} noLinkStyle target='_blank'
+            component={Link} href={Brand.URIs.SponsorHome} noLinkStyle target='_blank'
           >
             Explore
           </Button>
@@ -79,11 +79,11 @@ export function AppNews() {
       }}>
 
         <Typography level='h1' sx={{ fontSize: '2.9rem', mb: 4 }}>
-          Welcome to {Brand.Title.Base} <Box component='span' sx={{ animation: `${animationColorBlues} 10s infinite`, zIndex: 1 /* perf-opt */ }}>{firstNews?.versionCode}</Box>!
+          Welcome to {Brand.Title.Base} <Box component='span' sx={{ animation: `${animationColorBlues} 10s infinite`, zIndex: 1 /* perf-opt */ }}></Box>
         </Typography>
 
         <Typography sx={{ mb: 2 }} level='title-sm'>
-          {capitalizeFirstLetter(Brand.Title.Base)} has been updated to version {firstNews?.versionCode}
+          {Brand.Title.Base} has been updated to version {firstNews?.versionCode}
         </Typography>
 
         <Box sx={{ mb: 5 }}>
