@@ -8,7 +8,7 @@
  */
 export const Brand = {
   Title: {
-    Base: 'crAGI',
+    Base: 'cr-AGI',
     Common: (process.env.NODE_ENV === 'development' ? '[DEV] ' : '') + 'CR-AGI',
   },
   Meta: {
@@ -19,7 +19,7 @@ export const Brand = {
   },
   URIs: {
     Home: 'https://ai.cityrealty.com',
-    // App: 'https://get.big-agi.com',
+    App: 'https://ai.cityrealty.com',
     CardImage: 'https://big-agi.com/icons/card-dark-1200.png',
     OpenRepo: 'https://github.com/mf/big-agi',
     // OpenProject: 'https://github.com/users/enricoros/projects/4',
