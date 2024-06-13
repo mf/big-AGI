@@ -23,7 +23,8 @@ import WorkspacesIcon from '@mui/icons-material/Workspaces';
 import WorkspacesOutlinedIcon from '@mui/icons-material/WorkspacesOutlined';
 // Link icons
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { DiscordIcon } from '~/common/components/icons/3rdparty/DiscordIcon';
+import SatelliteAltIcon from '@mui/icons-material/SatelliteAlt';
+// import { DiscordIcon } from '~/common/components/icons/3rdparty';
 // Modal icons
 import BuildCircleIcon from '@mui/icons-material/BuildCircle';
 import SettingsIcon from '@mui/icons-material/Settings';
@@ -32,6 +33,7 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import { Brand } from '~/common/app.config';
 import { ChatBeamIcon } from '~/common/components/icons/ChatBeamIcon';
 import { hasNoChatLinkItems } from '~/modules/trade/link/store-link';
+import SatelliteAlt from '@mui/icons-material/SatelliteAlt';
 
 
 // enable to show all items, for layout development
@@ -236,9 +238,9 @@ export const navItems: {
     // },
     {
       type: 'extLink',
-      name: 'Discord',
-      icon: DiscordIcon,
-      href: Brand.URIs.SupportInvite,
+      name: 'Sponsored',
+      icon: SatelliteAlt,
+      href: Brand.URIs.SponsorHome,
     },
     {
       type: 'extLink',

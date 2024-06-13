@@ -16,8 +16,8 @@ export const GitHubProjectIssueCard = (props: {
     <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
       <GitHubIcon />
       <Typography level='body-sm'>
-        <MuiLink overlay href={`https://github.com/enricoros/big-AGI/issues/${props.issue}`} target='_blank'>
-          big-AGI #{props.issue}
+        <MuiLink overlay href={`https://github.com/mf/big-AGI/issues/${props.issue}`} target='_blank'>
+          cr-AGI #{props.issue}
         </MuiLink>
         {' · '}{props.text}.
       </Typography>

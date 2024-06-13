@@ -32,6 +32,7 @@ import coverV113 from '../../../public/images/covers/release-cover-v1.13.0.png';
 // An image of a capybara sculpted entirely from black cotton candy, set against a minimalist backdrop with splashes of bright, contrasting sparkles. The capybara is calling on a 3D origami old-school pink telephone and the camera is zooming on the telephone. Close up photography, bokeh, white background.
 import coverV112 from '../../../public/images/covers/release-cover-v1.12.0.png';
 
+import { beamBlogUrl } from './beam.data';
 
 interface NewsItem {
   versionCode: string;
@@ -87,10 +88,9 @@ export const NewsItems: NewsItem[] = [
     versionDate: new Date('2024-04-10T08:00:00Z'),
     versionCoverImage: coverV115,
     items: [
-      { text: <><B href={beamBlogUrl} wow>Beam</B>: Find better answers with multi-model AI reasoning</>, issue: 443, icon: ChatBeamIcon },
-      // { text: <><B>Explore diverse perspectives</B> and <B>synthesize optimal responses</B></>, noBullet: true },
-      { text: <><B issue={436}>Auto-configure</B> models for managed deployments</>, issue: 436 },
-      { text: <>Message <B issue={476}>starring ⭐</B>, filtering and attachment</>, issue: 476 },
+      { text: <>BEAM Find better answers with multi-model AI reasoning</>, issue: 443, icon: ChatBeamIcon },
+      { text: <>Auto-configure models for managed deployments</>, issue: 436 },
+      { text: <>Message starring ⭐, filtering and attachment</>, issue: 476 },
       { text: <>Default persona improvements</> },
       { text: <>Fixes to Gemini models and SVGs, improvements to UI and icons, and more</> },
       { text: <>Developers: imperative LLM models discovery</>, dev: true },
@@ -104,12 +104,12 @@ export const NewsItems: NewsItem[] = [
     versionDate: new Date('2024-03-07T08:00:00Z'),
     items: [
       { text: <>Anthropic <B href='https://www.anthropic.com/news/claude-3-family'>Claude-3</B> support for smarter chats</>, issue: 443, icon: AnthropicIcon },
-      { text: <><B issue={407}>Perplexity</B> support, including Online models</>, issue: 407, icon: PerplexityIcon },
-      { text: <><B issue={427}>Groq</B> support, with speeds up to 500 tok/s</>, issue: 427, icon: GroqIcon },
+      { text: <>Perplexity support, including Online models</>, issue: 407, icon: PerplexityIcon },
+      { text: <>Groq support, with speeds up to 500 tok/s</>, issue: 427, icon: GroqIcon },
       { text: <>Support for new Mistral-Large models</>, icon: MistralIcon },
       { text: <>Support for Google Gemini 1.5 models and various improvements</>, icon: GoogleIcon as any },
-      { text: <>Deeper LocalAI integration including support for <B issue={411}>model galleries</B></>, icon: LocalAIIcon },
-      { text: <>Major <B href='https://twitter.com/enricoros/status/1756553038293303434'>performance optimizations</B>: runs faster, saves power, saves memory</> },
+      { text: <>Deeper LocalAI integration including support for model galleries</>, icon: LocalAIIcon },
+      { text: <>Major performance optimizations: runs faster, saves power, saves memory</> },
       { text: <>Improvements: auto-size charts, search and folder experience</> },
       { text: <>Perfect chat scaling, with rapid keyboard shortcuts</> },
       { text: <>Also: diagrams auto-resize, open code with StackBlitz and JSFiddle, quick model visibility toggle, open links externally, docs on the web</> },
@@ -126,7 +126,7 @@ export const NewsItems: NewsItem[] = [
       { text: <>Side-by-Side <B issue={208}>split windows</B>: multitask with parallel conversations</>, issue: 208 },
       { text: <><B issue={388} wow>Multi-Chat</B> mode: message all, all at once</>, issue: 388 },
       { text: <>Adjustable <B>text size</B>: denser chats</>, issue: 399 },
-      { text: <>Export <B issue={392}>tables as CSV</B> files</>, issue: 392 },
+      { text: <>Export tables as CSV files</>, issue: 392 },
       { text: <><B>Dev2</B> persona technology preview</> },
       { text: <>Better looking chats, spacing, fonts, menus</> },
       { text: <>More: video player, LM Studio tutorial, speedups, MongoDB (docs)</> },
