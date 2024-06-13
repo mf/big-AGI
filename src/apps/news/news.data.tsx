@@ -32,8 +32,6 @@ import coverV113 from '../../../public/images/covers/release-cover-v1.13.0.png';
 // An image of a capybara sculpted entirely from black cotton candy, set against a minimalist backdrop with splashes of bright, contrasting sparkles. The capybara is calling on a 3D origami old-school pink telephone and the camera is zooming on the telephone. Close up photography, bokeh, white background.
 import coverV112 from '../../../public/images/covers/release-cover-v1.12.0.png';
 
-import { beamBlogUrl } from './beam.data';
-
 interface NewsItem {
   versionCode: string;
   versionName?: string;
